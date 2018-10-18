@@ -5,14 +5,23 @@ require "pathname"
 data = IO.binread("./example-companies-permid.txt")
 fake_file = Pathname.new("./data.json")
 
-permids = data.split("\n").map {|x| x.split(",").last.split("1-").last }
+companies_and_permids = data.split("\n").map do |x|
+  company, longpermid = x.split(",")
+  shortpermid = longpermid.split("1-").last
+  [company, shortpermid.to_i]
+end
 
-similarity_data = permids.each_with_object({}) do |permid, hash|
-  permids.each do |child_permid|
+permids = companies_and_permids.map(&:last)
+
+similarity_data = companies_and_permids.map do |company, permid|
+  data = Hash.new
+  data["id"] = permid
+  data["name"] = company
+  data["similarities"] = permids.each_with_object({}) do |child_permid, hash|
     next if permid == child_permid
-    key = "#{permid}:#{child_permid}"
-    hash[key] = rand
+    hash[child_permid] = rand
   end
+  data
 end
 
 company_data = {
