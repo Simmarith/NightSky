@@ -41,13 +41,13 @@ namespace AssemblyCSharp.Assets.Scripts
                 var starController = (StarController)o.Value.GetComponent<StarController>();
                 Debug.Assert(starController != null);
 
-                var relatedSperes = Companies
+                var relatedSpheres = Companies
                     .Single(p => p.Id == o.Key)
                     .Similarities;
 
-                Debug.Log(string.Format("{0} has {1} similiar companies", o.Key, relatedSperes.Count));
+                Debug.Log(string.Format("{0} has {1} similiar companies", o.Key, relatedSpheres.Count));
 
-                var relatedSpherePositions = relatedSperes
+                var relatedSpherePositions = relatedSpheres
                     .Select(p => _initialPositionMap[p.Key]);
 
                 starController.relatedSpheres = relatedSpherePositions.ToArray();
