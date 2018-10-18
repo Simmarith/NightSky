@@ -1,156 +1,156 @@
 {
   "4298338355": {
-    name: "A123 Systems Inc.",
-    num_employees: 500,
-    amt_revenue: 52000000,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "A123 Systems Inc.",
+    "num_employees": 500,
+    "amt_revenue": 52000000,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "5000075999": {
-    name: "Automotive Energy Supply Corporation",
-    num_employees: 2100,
-    amt_revenue: 15000000,
-    amt_revenue_year: 2017,
-    dummy_data: 1
+    "name": "Automotive Energy Supply Corporation",
+    "num_employees": 2100,
+    "amt_revenue": 15000000,
+    "amt_revenue_year": 2017,
+    "dummy_data": 1
   },
   "5000072717": {
-    name: "Aviation Industry Corporation of China",
-    num_employees: 250,
-    amt_revenue: null,
-    amt_revenue_year: null,
-    dummy_data: 1
+    "name": "Aviation Industry Corporation of China",
+    "num_employees": 250,
+    "amt_revenue": null,
+    "amt_revenue_year": null,
+    "dummy_data": 1
   },
   "4295865181": {
-    name: "BYD Company Ltd.",
-    num_employees: null,
-    amt_revenue: 150000000,
-    amt_revenue_year: 2016,
-    dummy_data: 1
+    "name": "BYD Company Ltd.",
+    "num_employees": null,
+    "amt_revenue": 150000000,
+    "amt_revenue_year": 2016,
+    "dummy_data": 1
   },
   "4295915631": {
-    name: "CBAK Energy Technology Inc.",
-    num_employees: 6000,
-    amt_revenue: 65000000,
-    amt_revenue_year: 2017,
-    dummy_data: 1
+    "name": "CBAK Energy Technology Inc.",
+    "num_employees": 6000,
+    "amt_revenue": 65000000,
+    "amt_revenue_year": 2017,
+    "dummy_data": 1
   },
   "5061699541": {
-    name: "Comtemporary Amperex Technology Ltd",
-    num_employees: 560,
-    amt_revenue: 43000000,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Comtemporary Amperex Technology Ltd",
+    "num_employees": 560,
+    "amt_revenue": 43000000,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "4295880227": {
-    name: "GS Yuasa Corporation",
-    num_employees: null,
-    amt_revenue: 14000000,
-    amt_revenue_year: null,
-    dummy_data: 1
+    "name": "GS Yuasa Corporation",
+    "num_employees": null,
+    "amt_revenue": 14000000,
+    "amt_revenue_year": null,
+    "dummy_data": 1
   },
   "5035723465": {
-    name: "Hefei Guoxuan High-tech Power Energy Co.",
-    num_employees: 102,
-    amt_revenue: 5534235,
-    amt_revenue_year: 2016,
-    dummy_data: 1
+    "name": "Hefei Guoxuan High-tech Power Energy Co.",
+    "num_employees": 102,
+    "amt_revenue": 5534235,
+    "amt_revenue_year": 2016,
+    "dummy_data": 1
   },
   "4298182542": {
-    name: "Hitachi Chemical Co., Ltd.",
-    num_employees: 22503,
-    amt_revenue: 1509300,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Hitachi Chemical Co., Ltd.",
+    "num_employees": 22503,
+    "amt_revenue": 1509300,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "5000001313": {
-    name: "Johnson Controls International Plc.",
-    num_employees: 56000,
-    amt_revenue: 664325535,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Johnson Controls International Plc.",
+    "num_employees": 56000,
+    "amt_revenue": 664325535,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "4295882004": {
-    name: "LG Chem",
-    num_employees: 80550,
-    amt_revenue: 542534235,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "LG Chem",
+    "num_employees": 80550,
+    "amt_revenue": 542534235,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "5035548067": {
-    name: "Microvast Inc.",
-    num_employees: null,
-    amt_revenue: null,
-    amt_revenue_year: null,
-    dummy_data: 1
+    "name": "Microvast Inc.",
+    "num_employees": null,
+    "amt_revenue": null,
+    "amt_revenue_year": null,
+    "dummy_data": 1
   },
   "5001226842": {
-    name: "Saft Batteries",
-    num_employees: 4454,
-    amt_revenue: 45099225,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Saft Batteries",
+    "num_employees": 4454,
+    "amt_revenue": 45099225,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "4295876960": {
-    name: "TDK Corporation",
-    num_employees: 8504,
-    amt_revenue: 599000000,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "TDK Corporation",
+    "num_employees": 8504,
+    "amt_revenue": 599000000,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "5037099774": {
-    name: "Tianjin Lishen Battery Joint-Stock Co.",
-    num_employees: 503,
-    amt_revenue: 20103400,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Tianjin Lishen Battery Joint-Stock Co.",
+    "num_employees": 503,
+    "amt_revenue": 20103400,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "4295864887": {
-    name: "Tianneng Power International Ltd",
-    num_employees: 1024,
-    amt_revenue: 13370000,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Tianneng Power International Ltd",
+    "num_employees": 1024,
+    "amt_revenue": 13370000,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
   "4295877311": {
-    name: "Toshiba Corporation",
-    num_employees: 135,
-    amt_revenue: 23400000,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "Toshiba Corporation",
+    "num_employees": 135,
+    "amt_revenue": 23400000,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
     "4295863394": {
-    name: "SQM",
-    num_employees: 3525,
-    amt_revenue: 230435234,
-    amt_revenue_year: 2018,
-    dummy_data: 1
+    "name": "SQM",
+    "num_employees": 3525,
+    "amt_revenue": 230435234,
+    "amt_revenue_year": 2018,
+    "dummy_data": 1
   },
     "4295903309": {
-    name: "Albemarle",
-    num_employees: 250,
-    amt_revenue: 34599345,
-    amt_revenue_year: 2016,
-    dummy_data: 1
+    "name": "Albemarle",
+    "num_employees": 250,
+    "amt_revenue": 34599345,
+    "amt_revenue_year": 2016,
+    "dummy_data": 1
   },
     "4295903957": {
-    name: "FMC",
-    num_employees: 250,
-    amt_revenue: 2590503,
-    amt_revenue_year: 2016,
-    dummy_data: 1
+    "name": "FMC",
+    "num_employees": 250,
+    "amt_revenue": 2590503,
+    "amt_revenue_year": 2016,
+    "dummy_data": 1
   },
     "5000824105": {
-    name: "Tianqi Lithium",
-    num_employees: 150,
-    amt_revenue: 453454500,
-    amt_revenue_year: 2011,
-    dummy_data: 1
+    "name": "Tianqi Lithium",
+    "num_employees": 150,
+    "amt_revenue": 453454500,
+    "amt_revenue_year": 2011,
+    "dummy_data": 1
   },
     "5060785538": {
-    name: "Lithium Werks BV",
-    num_employees: 1200,
-    amt_revenue: 543000000,
-    amt_revenue_year: 2017,
-    dummy_data: 1
+    "name": "Lithium Werks BV",
+    "num_employees": 1200,
+    "amt_revenue": 543000000,
+    "amt_revenue_year": 2017,
+    "dummy_data": 1
   }
 }
