@@ -5,13 +5,13 @@ BYD Company Ltd.,https://permid.org/1-4295865181
 CBAK Energy Technology Inc.,https://permid.org/1-4295915631
 Comtemporary Amperex Technology Ltd,https://permid.org/1-5061699541
 GS Yuasa Corporation,https://permid.org/1-4295880227
-Hefei Guoxuan High-tech Power Energy Co.,
+Hefei Guoxuan High-tech Power Energy Co.,https://permid.org/1-5035723465
 Hitachi Chemical Co., Ltd.,https://permid.org/1-4298182542
 Johnson Controls International Plc.,https://permid.org/1-5000001313
 LG Chem,https://permid.org/1-4295882004
 Microvast Inc.,https://permid.org/1-5035548067
 Saft Batteries,https://permid.org/1-5001226842
-TDK Corporation/Amperes Technology Ltd,null
+TDK Corporation,https://permid.org/1-4295876960
 Tianjin Lishen Battery Joint-Stock Co., Ltd.,https://permid.org/1-5037099774
 Tianneng Power International Ltd,https://permid.org/1-4295864887
 Toshiba Corporation,https://permid.org/1-4295877311
