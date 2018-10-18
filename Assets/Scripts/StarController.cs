@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class StarController : MonoBehaviour {
     public Transform defaultPosition;
-    public Transform otherSphere;
+    public float preferredHeight;
+    public Transform[] relatedSpheres;
 
 	// Use this for initialization
 	void Start () {
@@ -19,8 +20,13 @@ public class StarController : MonoBehaviour {
     private void FixedUpdate()
     {
         Transform myTransform = GetComponent<Transform>();
-        Vector3 toOtherSphere = (otherSphere.position - myTransform.position);
-        toOtherSphere.Normalize();
-        GetComponent<Rigidbody>().AddForce(toOtherSphere);
+        Rigidbody myRb = GetComponent<Rigidbody>();
+        for (int i = 0; i < relatedSpheres.Length; i++)
+        {
+            Vector3 toOtherSphere = (relatedSpheres[i].position - myTransform.position);
+            toOtherSphere.Normalize();
+            myRb.AddForce(toOtherSphere);
+        }
+        myRb.AddForce(0, preferredHeight - myTransform.position.y, 0);
     }
 }
