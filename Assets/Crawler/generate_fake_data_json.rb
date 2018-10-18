@@ -6,9 +6,8 @@ data = IO.binread("./example-companies-permid.txt")
 fake_file = Pathname.new("./data.json")
 
 companies_and_permids = data.split("\n").map do |x|
-  company, longpermid = x.split(",")
-  shortpermid = longpermid.split("1-").last
-  [company, shortpermid]
+  company, permid = x.split(",https://permid.org/1-")
+  [company, permid]
 end
 
 permids = companies_and_permids.map(&:last)
