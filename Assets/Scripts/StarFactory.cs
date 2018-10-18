@@ -25,9 +25,9 @@ namespace AssemblyCSharp.Assets.Scripts
                 const float y = 1.62f;
 
                 var t = new Vector3(
-                    Random.Range(0, 0.1f),
-                    y,
-                    Random.Range(0, 0.1f)
+                    Random.Range(0, 1f),
+                    Random.Range(0, 1f),
+                    Random.Range(0, 1f)
                 );
 
                 var star = Instantiate(StarPrefab);
