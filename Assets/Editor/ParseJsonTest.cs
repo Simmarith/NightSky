@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
+using System.Linq;
 
 public class ParseJsonTest {
 
@@ -30,6 +31,8 @@ public class ParseJsonTest {
         Assert.IsTrue(File.Exists(file));
         var companies = CompanyStore.ParseFromFile(file);
         Assert.IsTrue(companies.Count == 22);
+
+        Assert.IsTrue(companies.First().EmployeeCount == 500);
 
     }
 

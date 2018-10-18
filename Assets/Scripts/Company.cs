@@ -12,16 +12,25 @@ public class Company {
 	[JsonProperty("name")]
 	public string Name { get; set; }
 
-	[JsonProperty("similarities")]
+    [JsonProperty("num_employees")]
+    public int? EmployeeCount { get; set; }
+
+    [JsonProperty("amt_revenue")]
+    public int? Revenue { get; set; }
+
+    [JsonProperty("amt_revenue_year")]
+    public int? Revenue_Year { get; set; }
+
+    [JsonProperty("similarities")]
 	public IDictionary<string, float> Similarities { get; set; }
 }
 
 
 public class CompanyStore
 {
-
     [JsonProperty("similarity_score")]
     public IList<Company> Companies { get; set; }
+
 
     public static IList<Company> ParseFromFile()
     {
