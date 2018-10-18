@@ -16,10 +16,10 @@ public class Company {
     public int? EmployeeCount { get; set; }
 
     [JsonProperty("amt_revenue")]
-    public int? Revenue { get; set; }
+    public long? Revenue { get; set; }
 
     [JsonProperty("amt_revenue_year")]
-    public int? Revenue_Year { get; set; }
+    public long? Revenue_Year { get; set; }
 
     [JsonProperty("similarities")]
 	public IDictionary<string, float> Similarities { get; set; }
