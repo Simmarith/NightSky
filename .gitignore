@@ -35,7 +35,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-!Assets/SteamVR.unitypackage
+!Assets/SteamVR.Plugin.unitypackage
 
 # macOS
 .DS_Store
