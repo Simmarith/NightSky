@@ -35,5 +35,10 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+!Assets/SteamVR.unitypackage
+
 # macOS
 .DS_Store
+
+# VS Code
+.vscode/
