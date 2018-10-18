@@ -8,7 +8,7 @@ fake_file = Pathname.new("./data.json")
 companies_and_permids = data.split("\n").map do |x|
   company, longpermid = x.split(",")
   shortpermid = longpermid.split("1-").last
-  [company, shortpermid.to_i]
+  [company, shortpermid]
 end
 
 permids = companies_and_permids.map(&:last)
