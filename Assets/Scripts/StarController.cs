@@ -19,6 +19,9 @@ public class StarController : MonoBehaviour {
 
     private void FixedUpdate()
     {
+        if (relatedSpheres == null)
+            return;
+
         Transform myTransform = GetComponent<Transform>();
         Rigidbody myRb = GetComponent<Rigidbody>();
         for (int i = 0; i < relatedSpheres.Length; i++)
