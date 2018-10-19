@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class StarController : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class StarController : MonoBehaviour
                     if (companyInfo == null)
                     {
                         companyInfo = Instantiate(companyInfoPrefab);
+                        ConfigureCompanyInfo();
+
                     } else
                     {
                         companyInfo.active = true;
@@ -52,6 +55,29 @@ public class StarController : MonoBehaviour
                         companyInfo.active = false;
                     }
                 }
+            }
+        }
+    }
+
+    private void ConfigureCompanyInfo()
+    {
+        TextMeshProUGUI[] fields = companyInfo.GetComponentsInChildren<TextMeshProUGUI>();
+        foreach (TextMeshProUGUI field in fields)
+        {
+            switch (field.gameObject.name)
+            {
+                case "CompanyName":
+                    field.SetText(company.Name);
+                    break;
+                case "EmployeeCount":
+                    field.SetText(string.Concat(company.EmployeeCount.ToString(), " Employees"));
+                    break;
+                case "YearlyRev":
+                    field.SetText(string.Concat(company.Revenue.ToString(), "USD in ", company.Revenue_Year.ToString()));
+                    break;
+                default:
+                    field.SetText("MISSING INFO");
+                    break;
             }
         }
     }
