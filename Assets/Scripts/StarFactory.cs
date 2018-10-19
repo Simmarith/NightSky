@@ -40,6 +40,8 @@ namespace AssemblyCSharp.Assets.Scripts
             foreach(var o in ObjectMap) {
                 var starController = (StarController)o.Value.GetComponent<StarController>();
                 Debug.Assert(starController != null);
+                starController.company = Companies
+                    .Single(p => p.Id == o.Key);
 
                 var relatedSpheres = Companies
                     .Single(p => p.Id == o.Key)

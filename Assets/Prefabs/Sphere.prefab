@@ -165,9 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fa67def441c06c47a8d3345b8ed20f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultPosition: {fileID: 0}
   preferredHeight: 1
   relatedSpheres: []
+  companyInfo: {fileID: 0}
+  companyInfoPrefab: {fileID: 1829698867095856, guid: 42b2bacb00a817a4e84766d762fa124f,
+    type: 2}
 --- !u!135 &135679196628361650
 SphereCollider:
   m_ObjectHideFlags: 1

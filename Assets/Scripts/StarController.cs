@@ -2,20 +2,59 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StarController : MonoBehaviour {
-    public Transform defaultPosition;
+public class StarController : MonoBehaviour
+{
     public float preferredHeight;
+    public GameObject companyInfoPrefab;
     public Transform[] relatedSpheres;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Company company;
+
+    private VRTK.VRTK_InteractableObject objectHandler;
+    private bool showsInfo = false;
+    private GameObject companyInfo;
+
+    // Use this for initialization
+    void Start()
+    {
+        objectHandler = GetComponent<VRTK.VRTK_InteractableObject>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (company != null)
+        {
+            if (objectHandler.IsGrabbed())
+            {
+                if (!showsInfo)
+                {
+                    showsInfo = true;
+                    if (companyInfo == null)
+                    {
+                        companyInfo = Instantiate(companyInfoPrefab);
+                    } else
+                    {
+                        companyInfo.active = true;
+                    }
+                    // TODO: Maybe play some sound?
+                }
+                // Clamp info on top of Star
+                companyInfo.transform.position = GetComponent<Transform>().position + new Vector3(0, 0.2f, 0);
+                companyInfo.transform.LookAt(Camera.main.gameObject.transform.position);
+            } else
+            {
+                if (companyInfo != null)
+                {
+                    if (showsInfo)
+                    {
+                        showsInfo = false;
+                        companyInfo.active = false;
+                    }
+                }
+            }
+        }
+    }
 
     private void FixedUpdate()
     {
