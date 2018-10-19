@@ -13,13 +13,15 @@ end
 
 permids = companies_and_permids.map(&:last)
 
+buckets = 2.times.map { rand }
+
 similarity_data = companies_and_permids.map do |company, permid|
   data = Hash.new
   data["id"] = permid
   data["name"] = company
   data["similarities"] = permids.each_with_object({}) do |child_permid, hash|
     next if permid == child_permid
-    hash[child_permid] = rand
+    hash[child_permid] = buckets.sample + (rand * 0.5) - 0.5
   end
   %w[num_employees amt_revenue amt_revenue_year].each do |extra_attr|
     data[extra_attr] = metadata[permid][extra_attr]
